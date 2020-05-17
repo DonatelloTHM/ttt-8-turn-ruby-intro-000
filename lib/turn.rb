@@ -33,3 +33,4 @@ def turn(board)
     move(board,index)
   end
   display_board(board)
+end
