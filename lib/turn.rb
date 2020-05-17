@@ -28,7 +28,7 @@ def turn(board)
   index=input_to_index(user_input)
 
   if !valid_move?(board,index)
-  puts "that's an invalid move, choose again:"
+    puts "that's an invalid move, choose again:"
     gets.strip
   else
     move(board,index)
