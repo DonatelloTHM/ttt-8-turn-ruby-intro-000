@@ -10,3 +10,4 @@ if valid_move?(board,index)
 else
   move(board,index)
 end
+display_board(board)
